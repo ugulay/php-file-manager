@@ -1,0 +1,19 @@
+{
+    "name": "ugulay/php-file-manager",
+    "description": "PHP Simple File Manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ugur Gulay",
+            "email": "ugurgulay@gmail.com"
+        }
+    ],	
+	"require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleFileManager\\": "src/"
+        }
+    }
+}
